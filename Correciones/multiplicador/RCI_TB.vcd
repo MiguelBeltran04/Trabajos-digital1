@@ -1,0 +1,107 @@
+$date
+	Fri Jul  3 22:05:25 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module RCI_TB $end
+$var wire 32 ! Out_A [31:0] $end
+$var reg 1 " Shft_Dec $end
+$var reg 1 # clk $end
+$var reg 16 $ in_A [15:0] $end
+$var reg 1 % load $end
+$scope module uut $end
+$var wire 1 " Shft_Dec $end
+$var wire 1 # clk $end
+$var wire 16 & in_A [15:0] $end
+$var wire 1 % load $end
+$var reg 32 ' Out_A [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx '
+b1111111111111111 &
+0%
+b1111111111111111 $
+0#
+0"
+bx !
+$end
+#20
+1%
+1#
+#40
+b1111111111111111 !
+b1111111111111111 '
+0#
+#60
+0%
+1#
+#80
+0#
+#100
+1"
+1#
+#120
+b11111111111111110 !
+b11111111111111110 '
+0#
+#140
+1#
+#160
+b111111111111111100 !
+b111111111111111100 '
+0#
+#180
+1#
+#200
+b1111111111111111000 !
+b1111111111111111000 '
+0#
+#220
+1#
+#240
+b11111111111111110000 !
+b11111111111111110000 '
+0#
+#260
+1#
+#280
+b111111111111111100000 !
+b111111111111111100000 '
+0#
+#300
+1#
+#320
+b1111111111111111000000 !
+b1111111111111111000000 '
+0#
+#340
+b1010101010101010 $
+b1010101010101010 &
+0"
+1#
+#360
+0#
+#380
+1%
+1#
+#400
+b1010101010101010 !
+b1010101010101010 '
+0#
+#420
+0%
+1#
+#440
+0#
+#460
+1#
